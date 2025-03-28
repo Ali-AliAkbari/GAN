@@ -5,6 +5,14 @@ This repository contains implementations of different Generative Adversarial Net
 This repository contains implementations of different Generative Adversarial Network (GAN) architectures. The goal is to progressively implement and analyze major GAN variants to understand their strengths, weaknesses, and applications.
 
 ## Implemented Architectures
+
+
+New models will be added one by one in future updates.
+
+## Results
+Generated images and training curves will be saved in the `results/` directory.
+
+## To-Do
 - [ ] Vanilla GAN
 - [ ] Deep Convolutional GAN (DCGAN)
 - [ ] Conditional GAN (cGAN)
@@ -17,17 +25,6 @@ This repository contains implementations of different Generative Adversarial Net
 - [ ] CycleGAN
 - [ ] Pix2Pix
 - [ ] Other Advanced GANs
-
-New models will be added one by one in future updates.
-
-## Results
-Generated images and training curves will be saved in the `results/` directory.
-
-## To-Do
-- [ ] Implement missing GAN architectures
-- [ ] Improve training stability
-- [ ] Experiment with different datasets
-- [ ] Add evaluation metrics (FID, IS, etc.)
 
 ## References
 - Goodfellow et al., "Generative Adversarial Nets" (2014)
